@@ -15,11 +15,13 @@ function ThemeButton() {
   const { theme, setTheme } = useTheme();
 
   return (
-    <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
+    <button 
+      aria-label="Theme Button" 
+      onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
       <FaMoon
         name="light"
         size={20}
-        className="rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0"
+        className="absolute rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0"
       />
       <FaSun
         name="dark"
