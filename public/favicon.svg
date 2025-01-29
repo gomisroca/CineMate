@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="#FF69B4"/>
+  
+  <!-- Film reel elements -->
+  <circle cx="16" cy="16" r="12" fill="white"/>
+  <circle cx="16" cy="16" r="10" fill="#FF69B4"/>
+  
+  <!-- Film sprockets -->
+  <circle cx="16" cy="6" r="2" fill="white"/>
+  <circle cx="16" cy="26" r="2" fill="white"/>
+  <circle cx="6" cy="16" r="2" fill="white"/>
+  <circle cx="26" cy="16" r="2" fill="white"/>
+  
+  <!-- Center viewing window -->
+  <circle cx="16" cy="16" r="4" fill="white"/>
+</svg>

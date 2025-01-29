@@ -14,7 +14,7 @@ const Message = dynamic(() => import('@/app/_components/ui/Message'));
 export const metadata: Metadata = {
   title: 'CineMate',
   description: 'Movies, together.',
-  icons: [{ rel: 'icon', url: '/favicon.ico' }],
+  icons: [{ rel: 'icon', url: '/favicon.svg' }],
 };
 
 const worksans = Work_Sans({
