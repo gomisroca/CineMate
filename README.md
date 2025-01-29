@@ -11,7 +11,7 @@
     <a href="https://github.com/gomisroca/cinemate"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://cinemate.vercel.app/">View Demo</a>
+    <a href="https://cinemate-eu.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/gomisroca/cinemate/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
