@@ -9,7 +9,7 @@ import { ThemeProvider } from 'next-themes';
 import { Provider as JotaiProvider } from 'jotai';
 import ThemeButton from './_components/ui/ThemeButton';
 
-const Message = dynamic(() => import('@/app/_components/ui/Message'), { ssr: false });
+const Message = dynamic(() => import('@/app/_components/ui/Message'));
 
 export const metadata: Metadata = {
   title: 'CineMate',
@@ -29,8 +29,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <ThemeProvider attribute="class">
           <JotaiProvider>
             <TRPCReactProvider>
-              <div className="min-h-screen bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-200">
-                <main role="main" className="flex min-h-screen items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
+              <div className="min-h-screen bg-neutral-50 text-neutral-800 dark:bg-neutral-950 dark:text-neutral-200">
+                <main role="main" className="flex items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
                   {children}
                 </main>
                 <footer>
