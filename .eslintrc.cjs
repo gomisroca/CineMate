@@ -2,7 +2,7 @@
 const config = {
   root: true,
   parser: "@typescript-eslint/parser",
-  plugins: ["isaacscript", "import", "prettier", "vitest-globals"],
+  plugins: ["prettier", "vitest-globals"],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   extends: [
     "next/core-web-vitals",
@@ -43,11 +43,6 @@ const config = {
         fixStyle: "inline-type-imports",
       },
     ],
-    "import/consistent-type-specifier-style": ["error", "prefer-inline"],
-
-    // For educational purposes we format our comments/jsdoc nicely
-    "isaacscript/complete-sentences-jsdoc": "warn",
-    "isaacscript/format-jsdoc-comments": "warn",
 
     // These lint rules don't make sense for us but are enabled in the preset configs
     "@typescript-eslint/no-confusing-void-expression": "off",
