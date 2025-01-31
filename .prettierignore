@@ -21,3 +21,5 @@ README.md
 .env.example
 prisma/
 public/
+.storybook/
+src/stories/assets/
