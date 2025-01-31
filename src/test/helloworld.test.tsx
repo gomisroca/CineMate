@@ -1,6 +1,6 @@
-import { render, fireEvent } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import { expect, vi } from 'vitest';
+import { expect } from 'vitest';
 
 describe('Hello World', () => {
   it('should log hello world', () => {
